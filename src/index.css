@@ -1,0 +1,18 @@
+.wrpa1 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 30px auto;
+    width: 500px;
+}
+
+.wrpa2 {
+    border: 1px solid #f40;
+    padding: 10px;
+    margin: 30px auto;
+    width: 500px;
+}
+
+button {
+    display: block;
+    margin: 10px;
+}
