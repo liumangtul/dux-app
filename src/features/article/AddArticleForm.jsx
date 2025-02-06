@@ -32,7 +32,7 @@ export default function AddArticleForm() {
         <section>
             <h2>添加文章</h2>
             <form>
-                <label htmlFor="postTitle">文章标题:</label>
+                <label htmlFor="articleTitle">文章标题:</label>
                 <input
                     type="text"
                     id="articleTItle"
