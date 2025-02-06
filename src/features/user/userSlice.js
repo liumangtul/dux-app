@@ -29,7 +29,7 @@ const getData = (userId) => {
 const getName = (userId) => {
     return new Promise(resolve => {
         setTimeout(() => {
-            resolve('芭芭拉');
+            resolve('芭芭拉u(serId=>' + userId + ')');
         }, 300)
     });
 }

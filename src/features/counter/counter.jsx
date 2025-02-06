@@ -6,7 +6,7 @@ import {
     incrementByAmount,
     incrementAsync,
     selectCount,
-} from '../../features/counter/counterSlice';
+} from './counterSlice.js';
 import {
     selectUser,
     fetchUserListById,
@@ -84,7 +84,7 @@ export default function Counter() {
 
                 <button
                     onClick={() => dispatch(fetchUserListById(999))}
-                >获取Mock数据->list</button>
+                >获取Mock数据--list</button>
                 <ul>
                     {
                         user.list.map((item) => {
@@ -97,7 +97,7 @@ export default function Counter() {
                 <h3>我的名字是{user.name}</h3>
                 <button
                     onClick={() => dispatch(fetchUserNameById(666))}
-                >获取Mock数据->名字</button>
+                >获取Mock数据--名字</button>
             </div>
         </div>
     )
